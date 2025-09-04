@@ -1,0 +1,63 @@
+:root {
+  --stopWatch-primary-color: #488B49;
+  --stopWatch-primary-shade: #3e693e;
+  --stopWatch-secundary-color: #f000ec;
+  --stopWatch-secundary-shade: #91408f;
+  --stopWatch-light-color: #FFE1EA;
+  --body-background-color: #050517;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+  background-color: var(--body-background-color);
+  color: var(--stopWatch-light-color);
+  font-size: 2rem;
+}
+
+
+button {
+  all: unset ;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: var(--stopWatch-light-color);
+}
+
+#start {
+  background-color: var(--stopWatch-primary-color);
+}
+
+#start:hover {
+  background-color: var(--stopWatch-primary-shade);
+  cursor: pointer;
+}
+
+#stop {
+  background-color: var(--stopWatch-secundary-color);
+}
+
+#stop:hover {
+  background-color: var(--stopWatch-secundary-shade);
+  cursor: pointer;
+}
+
+#reset {
+  background-color: var(--stopWatch-light-color);
+  color: var(--body-background-color);
+}
+
+#reset:hover {
+  color: var(--stopWatch-light-color);
+  background-color: var(--body-background-color);
+  cursor: pointer;
+
+}
