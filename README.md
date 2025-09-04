@@ -2,7 +2,7 @@
 
 <h2>A classs criada é StopWatch (cronometro) - ela possui metodos, propriedades, getter e setter e membros Privados. </h2>
 
-<p> Por mais que o projeto seja simples e didatico, serviu de muito aprendizado para a criação de classses e am mnaipulação dela </p>
+<p> Por mais que o projeto seja simples e didatico, serviu de muito aprendizado para a criação de classses e a mamipulação dela </p>
 
 <img alt= "Print da pág web" src ="./image.png"> </img>
 
